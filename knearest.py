@@ -77,11 +77,4 @@ my_knn.fit(train_X, train_y)
 pred_y = my_knn.predict(test_X)
 
 #Test model accuracy
-print("Predoction accuracy: {:.3f}".format(accuracy_score(test_y, pred_y)))
-
-
-
-
-
-
-
+print("Prediction accuracy: {:.3f}".format(accuracy_score(test_y, pred_y)))
